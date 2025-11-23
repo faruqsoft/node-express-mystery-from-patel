@@ -1,0 +1,24 @@
+Why is this called a Function Statement / Function Declaration?
+Jokhon function diye directly ekta function declare kora hoy, tokhon seta Function Statement.
+JS hoisting er time e function ta fully memory-te store hoy
+
+Function Statement hoist hoy fully, mane pura function body upore uthe jay.
+
+So, tumi function ke tar likhar porer ageo call korte paro:
+sayHi(); // works!
+
+function sayHi() {
+  console.log("Hi!");
+}
+
+Function Expression na—karon eta variable e store kora hoy na
+
+Type	Example	,Hoisted?,	Why?
+Function Statement	function greet(){},	✔ ,fully	pure declaration
+Function Expression	const a = function(){},	❌ no,	expression = value assigned
+
+
+
+
+
+
