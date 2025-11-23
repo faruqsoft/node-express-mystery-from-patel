@@ -37,3 +37,14 @@ processUserInput(function(name) {
 });
 //on the fly mane, function ta ke directly argument hisebe use kora hocche, kono variable e assign na kore.
 
+//passing function as an argument
+function sum (a, b) {
+    return a + b
+}
+console.log(sum(10, 15));
+
+function greetWithSum(text, a, b, sum) {
+    const total = sum(a, b);
+    console.log(`${text} ${total}`);
+}
+greetWithSum("The sum is:", 5, 7, sum);

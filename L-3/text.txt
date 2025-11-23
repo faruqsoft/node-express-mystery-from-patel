@@ -1,0 +1,7 @@
+
+important: export emport korar somoy object / function kon ta asce kheyal korte hobe 
+
+json file e data store kora ase, jeta onno js file e require kore use kora jabe
+json file require korle object hisebe data ase
+json file e kono module.exports ba export kora lage na
+json file e data change korle abar server restart korte hobe na, next request e notun data pawa jab

@@ -1,3 +1,5 @@
 Module holo JavaScript er ekta separate file ba piece of code ja specific kaj kore, ar porer file gulo eta use korte pare via import/export.z
 
 module.exports empty boject{} return kore
+
+object , function 2 vabe ase , ata bujhe kaj korte hobe
