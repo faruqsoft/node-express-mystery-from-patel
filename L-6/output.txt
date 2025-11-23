@@ -1,0 +1,3 @@
+Hello, this is a test file using streams!
+This is the second line.
+This is the end of the file.
